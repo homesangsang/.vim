@@ -2,7 +2,7 @@
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
 
 "启动vim后自动打开taglist窗口
-let Tlist_Auto_Open = 1
+let Tlist_Auto_Open = 0
 
 "不同时显示多个文件的tag，仅显示一个
 let Tlist_Show_One_File = 1
@@ -28,3 +28,5 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set autoindent
+
+inoremap jj <ESC>
